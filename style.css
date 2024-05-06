@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(89, 42, 165);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+}
+
+.card{
+    background-color: aliceblue;
+    border-radius: 13px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+}
+
+h1{
+    text-align: center;
+    background-color: #632df8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: snow;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.clock{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.time-element{
+    font-size: 49px;
+    font-family: cursive;
+    font-weight: bold;
+    color: black;
+    margin: 0px 10px;
+}
